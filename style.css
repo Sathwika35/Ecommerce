@@ -1,0 +1,130 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ font-family:sans-serif;
+}
+.navbar{
+    inline-size:100%;
+    block-size:80px;
+    background-color:black;
+}
+.banner-section{
+    
+    inline-size:100%;
+    block-size: 300px;
+}
+.banner-section img{
+    inline-size:100%;
+}
+.category-section{
+    
+    inline-size:100%;
+    block-size:150px;
+}
+.arrival-section{
+    
+    inline-size:100%;
+    block-size:150px;
+}
+.discount-section{
+    
+    inline-size:100%;
+    block-size:150px;
+}
+.category-section ul li {
+    list-style: none;
+    display:inline-flex;
+     inline-size: 100px;
+     block-size:100px;
+     
+    justify-content: center;
+    align-items:center;
+    margin: 12px;
+    border:3px double black;
+    
+}
+.category-section li:hover{
+    transform:scale(1.5);
+}
+.category-section ul li img{
+    inline-size:100%;
+    
+
+}
+.arrival-section ul li{
+    display:inline-flex;
+    inline-size:250px;
+    block-size:220px;
+    list-style:none;
+    margin:15px;
+    align-items:center;
+    justify-content:center;
+}
+.arrival-section ul li img{
+    inline-size:250px;
+}
+
+.sub-section ul li img{
+    inline-size:150px;
+    
+    border:1px solid red;
+}
+.sub-section{
+    border:1px solid black;
+
+}
+.sub-section ul{
+    position:relative;
+}
+.sub-section span{
+    position:absolute;
+    inset-block-start:160px;
+    margin-inline-start:30px;
+    font-weight:bold;
+}
+.banner-2{
+    position:relative;
+    inset-block-start:350px;
+}
+.banner-2 img{
+    inline-size:100%;
+    margin-inline-start:0px;
+}
+.discount-section{
+    position:relative;
+    inset-block-start:400px;
+    padding-inline-start:20px;
+
+}
+.discount-section img{
+    inline-size:250px;
+    block-size:250px;
+    margin:5px;
+    margin-inline-start:20px;
+
+}
+.footer{
+    position:relative;
+    inset-block-start:800px;
+    inline-size:100%;
+    min-inline-size:100vw;
+}
+.footer img{
+    inline-size:100%;
+}
+.navbar{
+    display:flex;
+    
+    justify-content:space-between;
+    align-items:center;
+}
+.company h2{
+    margin-inline-start:20px;
+}
+.products ul li{
+    dispaly:inline-flex;
+    list-style:none;
+    font-color:white;
+    margin-inline-end:20px;
+}
